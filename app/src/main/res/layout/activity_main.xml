@@ -14,4 +14,14 @@
         android:hint="enter username"
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="59dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="enter password"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="104dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
