@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.AlarmClock
 import android.util.Log
 import android.view.View
 
@@ -18,5 +19,6 @@ class MainActivity : AppCompatActivity() {
         var dialIntent: Intent=Intent(Intent.ACTION_DIAL, Uri.parse("tel:9847531304"))
         var webIntent:Intent=Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"))
         startActivity(webIntent)
+
     }
 }

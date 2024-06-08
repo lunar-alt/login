@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_entername">നിങ്ങളുടെ ഉപയോക്തൃനാമം നൽകുക</string>
+    <string name="hint_enterpin">നിങ്ങളുടെ പാസ്‌വേഡ് നൽകുക</string>
+    <string name="login_label">ലോഗിൻ</string>
+</resources>
