@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //inflate this xml
         setContentView(R.layout.activity_main)
+        var name:String = "surya"
         Log.i(TAG,"activity is getting created")
         // inflateXml()
         // var myEmp = Employee("abdul")
